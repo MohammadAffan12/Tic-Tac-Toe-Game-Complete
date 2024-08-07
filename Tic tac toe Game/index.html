@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Practice Game For Today</h1>
+
+    <label for="grid-size">Select Grid Size (2-8):</label>
+    <input type="number" id="grid-size" min="2" max="8" value="3">
+
+    <label for="winning-boxes">select winning boxes</label>
+    <input type="number" id="winning-boxes" min="2" max="8">
+     
+    
+   
+
+
+
+    <button id="newgame-btn">New Game</button>
+    
+    <div class="container">
+        <div class="game" id="game-container"></div>
+    </div>
+
+    <p id="turn-msg">Current Turn: Player X</p> 
+
+    <script src="index.js"></script>
+</body>
+</html>
